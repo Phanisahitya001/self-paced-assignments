@@ -1,0 +1,27 @@
+l=[1,2,3,4,5,6,7,8,9]
+print (l)
+l.append(10)
+print (l)
+l.clear()
+print(l)
+l1=[2,5,9,4,1,9,3,7,9,10]
+x=l1.count(9)
+print(x)
+l1.sort()
+print(l1)
+y=l1.copy()
+print(y)
+z=l1.index(2)
+print(z)
+l.extend(l1)
+print(l)
+lst=["rose","lotus","jasmine"]
+lst1=["mango","strawberry","grapes"]
+lst1.insert(3,"apple")
+print(lst1)
+lst.reverse()
+print(lst)
+lst1.pop(1)
+print(lst1)
+lst.remove("jasmine")
+print(lst)
