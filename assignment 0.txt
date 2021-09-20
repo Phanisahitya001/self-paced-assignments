@@ -6,7 +6,7 @@ assignment 0
 step 1: start
 step 2: determine the difference between the adjacent numbers
 step 3: find the pattern among the difference obtained
-step 4: add the difference to the preceeding number when the pattern is repeated to get x 
+step 4: subtract the difference to the preceeding number when the pattern is repeated to get x 
 step 5: repeat step 4 to get y
 step 6: stop
 
