@@ -1,0 +1,54 @@
+assignment 0
+
+1.algorithm to find x and y in sequence : 10 , 1 , 8 , 3 , 6 , 5 , 4 , 7 , x , y
+
+
+step 1: start
+step 2: determine the difference between the adjacent numbers
+step 3: find the pattern among the difference obtained
+step 4: add the difference to the preceeding number when the pattern is repeated to get x 
+step 5: repeat step 4 to get y
+step 6: stop
+
+
+2. end in print() 
+
+By default python’s print() function ends with a newline.Python’s print() function comes with a parameter called ‘end’.The value of this parameter is ‘\n’, i.e. the new line character.
+You can end a print statement with any character/string using this parameter.
+eg: for i in range (10):
+        print(i,end=' ')
+
+output: 0 1 2 3 4 5 6 7 8 9 
+
+
+3.operators in python
+
+Arithmetic operators : used to perform mathematical operations on variables
+eg: x+y , x-y , x*y , x/y , x//y , x%y , x**y
+
+Assignment operators : used to assign values to variables
+eg: x=3 , x+=1 , x-=1 , x*=1 , x/=1 , x%=1 , x//=1 , x**=1 , x&=3 , x|=3 , x>>=3 , x<<=3
+
+Comparison operators: used to compare two values
+eg: x==y , x!=y , x>y , x<y , x<=y , x>=y
+
+Logical operators: used to combine conditional statements
+eg: x==2 and x>1 , x==2 or x>1 , not(x==2 and x>1)
+
+Identity operators: used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
+eg: x is y , x is not y
+
+Membership operators: used to test if a sequence is presented in an object
+eg: x in y , x not in y
+
+Bitwise operators: used to compare binary numbers
+eg:     & 	AND			Sets each bit to 1 if both bits are 1 
+	|	OR			Sets each bit to 1 if one of two bits is 1
+ 	^	XOR			Sets each bit to 1 if only one of two bits is 1
+	~ 	NOT			Inverts all the bits
+	<<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
+	>>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+
+
+
+
